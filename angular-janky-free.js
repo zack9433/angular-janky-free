@@ -5,7 +5,7 @@
 
 'use strict';
 
-angular.module('ngJankyFree')
+angular.module('ngJankyFree', [])
     .directive('ngJankyFree', function ($timeout, $log) {
         return {
             restrict: 'A',
